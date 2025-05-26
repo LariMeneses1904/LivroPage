@@ -1,0 +1,39 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.barrapesquisa{
+    width:100vw;
+    height: 10vh;
+    background-color: brown;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    font-size: 60px;
+}
+
+.cardlivro{
+    display:flex;
+    width: 80vw;
+    height: 30vh;
+    background-color: brown;
+    justify-content: center;
+    margin-top: 90px;
+    margin-left: 90px;
+}
+
+.livro{
+    display: flex;
+    width: 20%;
+    height: 80%;
+    background-color: aqua;
+    justify-content: start;
+    align-items: center;
+
+}
