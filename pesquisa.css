@@ -10,12 +10,21 @@
     background-color: brown;
 }
 
+.resultados{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
 
 h1{
     display: flex;
     justify-content: center;
-    margin-top: 90px;
-    font-size: 60px;
+    margin-top: 8vh;
+    font-size: 10vh;
+    background-color: rgb(14, 14, 102);
+    width: 100vw;
+    height: 10vh;
 }
 
 .cardlivro{
@@ -23,17 +32,27 @@ h1{
     width: 80vw;
     height: 30vh;
     background-color: brown;
-    justify-content: center;
-    margin-top: 90px;
-    margin-left: 90px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: 8vh;
+    margin-left: 5vh;
 }
 
 .livro{
     display: flex;
-    width: 20%;
-    height: 80%;
+    width: 8vw;
+    height: 20vh;
     background-color: aqua;
-    justify-content: start;
-    align-items: center;
 
+}
+
+.textlivro{
+    display: flex;
+    width:65vw;
+    height: 20vh;
+    background-color: blueviolet;
 }
