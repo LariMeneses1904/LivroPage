@@ -1,0 +1,58 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.barrapesquisa{
+    width:100vw;
+    height: 10vh;
+    background-color: brown;
+}
+
+.resultados{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 8vh;
+    font-size: 10vh;
+    background-color: rgb(14, 14, 102);
+    width: 100vw;
+    height: 10vh;
+}
+
+.cardlivro{
+    display:flex;
+    width: 80vw;
+    height: 30vh;
+    background-color: brown;
+    border: 1px solid #000;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: 8vh;
+    margin-left: 5vh;
+}
+
+.livro{
+    display: flex;
+    width: 8vw;
+    height: 20vh;
+    background-color: aqua;
+
+}
+
+.textlivro{
+    display: flex;
+    width:65vw;
+    height: 20vh;
+    background-color: blueviolet;
+}
