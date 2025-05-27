@@ -1,0 +1,41 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.topo{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: brown;
+
+}
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.card1{
+    height: 50vh;
+    width: 30vw;
+    background-color: aqua;
+    display: flex;
+    
+}
+.card2{
+     height: 50vh;
+    width: 30vw;
+    background-color: aqua;
+
+}
+footer{
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+    background-color: blue;
+}
+h1{
+    
+}
