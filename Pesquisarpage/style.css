@@ -61,7 +61,7 @@
     width: 6.5vw;
     height: 20vh;
     background-color: #fff;
-    background-image: url(./src/img/capaagentemiranoamor.jpg);
+    background-image: url(../src/img/capaagentemiranoamor.jpg);
     background-size: cover;
 }
 
@@ -77,6 +77,8 @@
 .bookname{
     display: flex;
     font-size: 3vw;
+    text-decoration: none;
+    color: #000;
 }
 
 .descricao{
