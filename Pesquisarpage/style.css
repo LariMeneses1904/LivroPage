@@ -128,6 +128,8 @@
     height: 20vh;
     background-color: aqua;
     margin-top: 10vh;
+    background-image: url(../src/img/naopisenomeuvazio.jpg);
+    background-size: cover;
 }
 
 .livro2{
@@ -136,7 +138,10 @@
     height: 20vh;
     background-color: rgb(192, 58, 152);
     margin-top: 10vh;
+     background-image: url(../src/img/as\ cabanas\ que\ o\ amor\ faz\ em\ nos.jpg);
+     background-size: cover;
 }
+
 
 .livro3{
     display: flex;
@@ -144,7 +149,10 @@
     height: 20vh;
     background-color: aqua;
     margin-top: 10vh;
+     background-image: url(../src/img/pessoasnormais.jpg);
+     background-size: cover;
 }
+
 
 .livro4{
     display: flex;
@@ -152,6 +160,8 @@
     height: 20vh;
     background-color: aqua;
     margin-top: 10vh;
+    background-image: url(../src/img/priimeiroeutivequemorrer.jpg);
+    background-size: cover;
 }
 
 .livro5{
@@ -160,6 +170,8 @@
     height: 20vh;
     background-color: aqua;
     margin-top: 10vh;
+    background-image: url(../src/img/sigmafreud.jpg);
+    background-size: cover;
 }
 
 .livro6{
@@ -168,6 +180,8 @@
     height: 20vh;
     background-color: aqua;
     margin-top: 10vh;
+    background-image: url(../src/img/o\ mal\ estar\ na\ civilizaçao.jpg);
+    background-size: cover;
 }
 
 
@@ -179,53 +193,62 @@
     width: 100%;
     height: 15vh;
     gap: 6%;
+    font-size: 1vh;
 }
 .namelivro1{
     display: flex;
     width: 6.5vw;
-    height: 10vh;
-    background-color: black;
-    margin-top:2vh;
+    height: 12vh;
+    background-color: #fff;
+    margin-top:0vh;
+    color: #000;
+    cursor: pointer;
 }
 
 .namelivro2{
     display: flex;
     width: 6.5vw;
-    height: 10vh;
-    background-color: black;
-    margin-top:2vh;
+    height: 12vh;
+    background-color: #fff;
+    margin-top:0vh;
+    color: #000;
+    cursor: pointer;
 }
 
 .namelivro3{
     display: flex;
     width: 6.5vw;
-    height: 10vh;
-    background-color: black;
-    margin-top:2vh;
+    height: 12vh;
+    background-color: #ffffff;
+    cursor: pointer;
+
 }
 
 .namelivro4{
     display: flex;
     width: 6.5vw;
-    height: 10vh;
-    background-color: black;
-    margin-top:2vh;
+    height: 12vh;
+    background-color: #ffffff;
+    cursor: pointer;
+    
 }
 
 .namelivro5{
     display: flex;
     width: 6.5vw;
-    height: 10vh;
-    background-color: black;
-    margin-top:2vh;
+    height: 12vh;
+    background-color: #ffffff;
+    cursor: pointer;
+    
 }
 
 .namelivro6{
     display: flex;
     width: 6.5vw;
-    height: 10vh;
-    background-color: black;
-    margin-top:2vh;
+    height: 12vh;
+    background-color: #ffffff;
+    cursor: pointer;
+
 }
 
 
