@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+.body{
+    background-color: #e6dcd4;
+}
 .barrapesquisa{
     width:100%;
     height: 10vh;
