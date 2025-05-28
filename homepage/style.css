@@ -3,13 +3,19 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #e6dcd4;
+}
+
 .topo{
     display: flex;
     height: 10vh;
     width: 100%;
-    background-color: brown;
+    background-color: #6f5743;
     justify-content:end;
     align-items: center;
+    color:#e6dcd4;
 
 }
 
@@ -21,6 +27,14 @@
 
 }
 
+.card2{
+    display:flex;
+    height: 50vh;
+    width: 30vw;
+    background-image: url(../src/img/photo-1630343710506-89f8b9f21d31.jpg);
+    background-size:cover;
+    border-radius: 2%;
+}
 
 
 .inicio{
@@ -31,27 +45,28 @@
 }
 
 .card1{
+    display:flex;
     height: 50vh;
     width: 30vw;
-     
+    color:#56493d;
 }
 
 .card2{
     height: 50vh;
     width: 30vw;
-    background-image: url(./src/img/photo-1630343710506-89f8b9f21d31.jpg);
-    background-size:cover;
+   
 }
+
 footer{
     display: flex;
     height: 50vh;
     width: 100%;
-    background-color: blanchedalmond;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 15vh;
     margin-bottom: 10vh;
+    background-color: #c1a67d;
 
 }
 
@@ -65,23 +80,25 @@ footer{
 
 .minicards{
     display: flex;
-    width: 20vw;
-    height: 20vh;
-    box-shadow: 2; 
+    width: 25vw;
+    height: 25vh; 
     margin-left:5%;
     margin-right: 5%;
     border-radius: 10px;
-    font-size: 2vw;
+    font-size: 1.7vw;
     justify-content: center;
     align-items: center;
     padding: 1%;
-    background-color:rgb(89, 61, 61);
+    background-color: #6f5743;
+    box-shadow:1px 1px 5px 1px; 
+
 }
 
 .texto{
     display: flex;
     margin-bottom: 20vh;
     font-size: 3vh;
+    color:#56493d;
     
 }
 
@@ -90,25 +107,60 @@ footer{
     margin-right: 5vh;
     margin-left:2vh;
     cursor: pointer;
+    color:#e6dcd4;
 }
 
-.lupa{
-    display:flex; 
+.menu:hover{
+    color:#56493d;
 }
+
+
+.lupa{
+display:flex; 
+   color:#e6dcd4;
+   cursor:pointer;
+}
+
+
+.lupa:hover{
+    color:#56493d;
+}
+
 
 .topo input{
     margin-right: 5vh;
     height: 4vh;
     width: 15vw;
     border-radius: 1vh;
-    border:1px solid
+    border:1px solid;
+    padding-left: 0.5vw;
+    margin-top: 0.3vh;
+
 }
 
 .linklupa{
     display:flex;
     text-decoration: none;
-    color: black;
+    color: #e6dcd4;
     cursor: pointer;
 
 }
+.arealogo{
+    display:flex;
+    width: 4%;
+    height: 60%;
+    background-image: url(../src/img/livros\ logo.png);
+    background-size: cover;
+    margin-right: 68vw;
+     
+}
+
+.entrelivros{
+    display: flex;
+    margin-left: 4vw;
+    font-size: 30px;
+    align-items: center;
+}
+
+
 
