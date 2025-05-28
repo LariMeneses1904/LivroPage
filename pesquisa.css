@@ -7,7 +7,7 @@
 .barrapesquisa{
     width:100%;
     height: 10vh;
-    background-color: brown;
+    background-color: rgb(102, 50, 50);
 }
 
 .resultados{
@@ -29,9 +29,9 @@
 
 .cardlivro{
     display:flex;
-    width: 80vw;
+    width: 90vw;
     height: 30vh;
-    background-color: #fff;
+    background-color: #ffffff;
     border: 1px solid #000;
     border-radius: 5px;
     justify-content: space-around;
@@ -40,6 +40,20 @@
     padding-left: 2%;
     margin-top: 20vh;
     
+}
+
+.cardlivro:hover{
+    display:flex;
+    width: 95vw;
+    height: 35vh;
+    background-color: #ffffff;
+    border: 1px solid #000;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-top: 20vh;
 }
 
 .livro{
@@ -51,14 +65,14 @@
     background-size: cover;
 }
 
+
 .textlivro{
     display: flex;
-    width:65vw;
+    width:75vw;
     height: 20vh;
     background-color: #fff;
     flex-direction: column;
 }
-
 
 .bookname{
     display: flex;
@@ -90,12 +104,133 @@
 }
 
 .sugestoestext{
-    color: aqua;
+    display: flex;
+    color: rgb(0, 0, 0);
     font-size: 5vh;
+    margin-top: 10vh;
 }
+
+.bookss{
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    background-color: #ffffff;
+    width: 100%;
+    height: 35vh;
+    gap: 6%;
+}
+
 .livro1{
     display: flex;
     width: 6.5vw;
     height: 20vh;
     background-color: aqua;
+    margin-top: 10vh;
+}
+
+.livro2{
+    display: flex;
+    width: 6.5vw;
+    height: 20vh;
+    background-color: rgb(192, 58, 152);
+    margin-top: 10vh;
+}
+
+.livro3{
+    display: flex;
+    width: 6.5vw;
+    height: 20vh;
+    background-color: aqua;
+    margin-top: 10vh;
+}
+
+.livro4{
+    display: flex;
+    width: 6.5vw;
+    height: 20vh;
+    background-color: aqua;
+    margin-top: 10vh;
+}
+
+.livro5{
+    display: flex;
+    width: 6.5vw;
+    height: 20vh;
+    background-color: aqua;
+    margin-top: 10vh;
+}
+
+.livro6{
+    display: flex;
+    width: 6.5vw;
+    height: 20vh;
+    background-color: aqua;
+    margin-top: 10vh;
+}
+
+
+.textsbooks{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 100%;
+    height: 15vh;
+    gap: 6%;
+}
+.namelivro1{
+    display: flex;
+    width: 6.5vw;
+    height: 10vh;
+    background-color: black;
+    margin-top:2vh;
+}
+
+.namelivro2{
+    display: flex;
+    width: 6.5vw;
+    height: 10vh;
+    background-color: black;
+    margin-top:2vh;
+}
+
+.namelivro3{
+    display: flex;
+    width: 6.5vw;
+    height: 10vh;
+    background-color: black;
+    margin-top:2vh;
+}
+
+.namelivro4{
+    display: flex;
+    width: 6.5vw;
+    height: 10vh;
+    background-color: black;
+    margin-top:2vh;
+}
+
+.namelivro5{
+    display: flex;
+    width: 6.5vw;
+    height: 10vh;
+    background-color: black;
+    margin-top:2vh;
+}
+
+.namelivro6{
+    display: flex;
+    width: 6.5vw;
+    height: 10vh;
+    background-color: black;
+    margin-top:2vh;
+}
+
+
+.final{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    background-color:rgb(102, 50, 50);
+    margin-top: 20%;
 }
