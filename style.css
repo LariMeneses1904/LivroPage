@@ -59,7 +59,7 @@ body{
 
 footer{
     display: flex;
-    height: 50vh;
+    height: 65vh;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -90,7 +90,9 @@ footer{
     align-items: center;
     padding: 1%;
     background-color: #6f5743;
-    box-shadow:1px 1px 5px 1px; 
+    box-shadow:1px 1px 5px 1px #000000; 
+    color:#e6dcd4;
+
 
 }
 
@@ -147,18 +149,18 @@ display:flex;
 }
 .arealogo{
     display:flex;
-    width: 5%;
-    height: 70%;
+    width: 5.9%;
+    height: 60%;
     background-image: url(./src/img/logoclara.png);
     background-size: cover;
-    margin-right:65vw;
+    margin-right:66vw;
 
      
 }
 
 .entrelivros{
     display: flex;
-    margin-left: 4vw;
+    margin-left: 7vw;
     font-size: 30px;
     align-items: center;
 }
