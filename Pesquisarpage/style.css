@@ -97,6 +97,17 @@ body{
     cursor: pointer;
 
 }
+
+.seta a{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    width: 5vw;
+    height: 8vh;
+    text-decoration: none;
+    color: #6f5743; 
+
+}
 .resultados{
     display: flex;
     flex-direction:column;
