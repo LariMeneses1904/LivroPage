@@ -3,3 +3,15 @@
     padding: 0;
  box-sizing: border-box; 
 }
+
+
+body{
+    background-color: #e6dcd4;
+}
+
+.seta a{
+    display: flex;
+    text-decoration: none;
+    color: black; 
+
+}
