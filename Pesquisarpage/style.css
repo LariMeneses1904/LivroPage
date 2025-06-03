@@ -16,7 +16,9 @@ body{
     justify-content:end;
     align-items: center;
     color:#e6dcd4;
+
 }
+
 .busca input{
     margin-right: 5vh;
     height: 4vh;
@@ -25,9 +27,7 @@ body{
     border:1px solid;
     padding-left: 0.5vw;
     margin-top: 0.3vh;
-
 }
-
 
 .arealogo{
     display:flex;
@@ -36,7 +36,6 @@ body{
     background-image: url(../src/img/logoclara.png);
     background-size: cover;
     margin-right:66vw;
-
      
 }
 
@@ -46,6 +45,7 @@ body{
     font-size: 30px;
     align-items: center;
 }
+
 
 .menu{
     display:flex;
@@ -59,11 +59,28 @@ body{
     color:#56493d;
 }
 
+.sino{
+    display:flex;
+    margin-right: 0.vh;
+    margin-left:2vh;
+    cursor: pointer;
+    color:#e6dcd4;  
+}
+
+
+
+.sino:hover{
+  color:#56493d;   
+}
+
+
 
 .lupa{
-    display:flex; 
+  display:flex; 
    color:#e6dcd4;
    cursor:pointer;
+   margin-left: -2vw;
+   margin-right: 1vw;
 }
 
 
@@ -72,6 +89,14 @@ body{
 }
 
 
+
+.linklupa{
+    display:flex;
+    text-decoration: none;
+    color: #e6dcd4;
+    cursor: pointer;
+
+}
 .resultados{
     display: flex;
     flex-direction:column;
