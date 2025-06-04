@@ -47,10 +47,15 @@ body{
 .entrelivros{
     display: flex;
     margin-left: 7vw;
-    font-size: 30px;
+    font-size: 37px;
     align-items: center;
+    font-family: 'Sundays', serif;
 }
 
+@font-face {
+  font-family: 'Sundays';
+  src: url('/fonts/Sundays-Regular.otf') format('opentype');
+}
 
 .menu{
     position:relative;
