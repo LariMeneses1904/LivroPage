@@ -22,12 +22,16 @@ body{
 .busca input{
     margin-right: 5vh;
     height: 4vh;
-    width: 15vw;
+    width: 30vw;
     border-radius: 1vh;
-    border:1px solid;
+    border:1px solid #46270e;
     padding-left: 0.5vw;
     margin-top: 0.3vh;
 }
+ input:focus{
+    outline: none;
+
+ }
 
 .arealogo{
     display:flex;
@@ -35,8 +39,8 @@ body{
     height: 60%;
     background-image: url(./src/img/logoclara.png);
     background-size: cover;
-    margin-right:66vw;
-
+    margin-right:50vw;
+    
      
 }
 
@@ -54,20 +58,50 @@ body{
 }
 
 .menu{
-    display:flex;
-    margin-right: 5vh;
-    margin-left:2vh;
+    position:relative;
+    display: inline-block;
     cursor: pointer;
+    margin-right: 2vw;
+}
+.menu-icon{
+    font-size: 36px;
+    cursor: pointer;
+    background-color: #6f5743;
     color:#e6dcd4;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.menu:hover{
-    color:#56493d;
+.submenu{
+    display:none ;
+    position:absolute;
+    top:40px;
+    right:0;
+    background-color: #e6dcd4;
+    border:1px solid #ccc ;
+    min-width: 50px;
+    box-shadow: 0 2px 5px #00000097;
+    z-index: 100;
 }
+.submenu a{
+    display:block;
+    padding: 10px;
+    color:#46270e;
+    text-decoration:none;
+}
+.submenu a:hover{
+background-color:#56493d;
+color: #e6dcd4;
+}
+
+.menu:hover .submenu{
+    display: block;
+}
+
 
 .sino{
     display:flex;
-    margin-right: 0.vh;
+    margin-right: 2vh;
     margin-left:2vh;
     cursor: pointer;
     color:#e6dcd4;  
