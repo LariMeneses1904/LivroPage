@@ -87,13 +87,46 @@ button{
 
 }button:hover{
     background-color: #6f5743;
-    color: white;
+    color: rgb(185, 181, 181);
     border-radius: 5px;
 }
 .segunda{
-    height:50vh;
+    height:100vh;
     width: 100%;
     background-color: #6f5743;
     margin-top: 20px;
     border: 1px solid #000000;
+}
+.img1{
+    width: 20vw;
+    height: 60vh;
+    margin-top: 50%;
+    margin-left: 20px;
+    background-image: url(../src/img/capaagentemiranoamor.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-left: 3%;
+    margin-top: 40px;
+    box-shadow: #000000 2px 2px 5px;
+}
+.text1{
+    width: 50vw;
+    height: 60vh;
+    margin-top: 40%;
+    margin-left: 10px;
+    background-color: #f8dbb0;
+    margin-left: 37%;
+   margin-top: -30%;
+    padding: 20px;
+    font-size: 20px;
+    color: #000000;
+
+}body{
+    background-color: #ffe5bf;
+}
+p{
+    font-size: 200%;
+    color: #000000;
+    margin-top: 10px;
+    text-align: justify;
 }
