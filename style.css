@@ -30,16 +30,24 @@ background-color: #695446;
   gap: 2rem;
   width: 100%;
   height: 6vh;
-  background-color: #c1a67d;
+  background-color: #886f5a;
   text-decoration: none;
   justify-content: center;
   align-items: center;
+  gap: 10%;
 
 }
 .menu-principal a{
     display: flex;
     text-decoration: none;
-    color: #46270e;
+    color: #e6dcd4;
+    font-size:20px;
+}
+.menu-principal a:hover{
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    font-size:20px;
 }
 .menu-principal li {
   position: relative;
@@ -56,7 +64,7 @@ background-color: #695446;
     z-index: 100;
     padding: 1rem;
     border-radius: 8px;
-    width: 10vw;
+    width: 12vw;
 }
 .submenu2 a{
     display:block;
@@ -65,7 +73,7 @@ background-color: #695446;
     text-decoration:none;
 }
 .submenu2 a:hover{
-    background-color:#56493d;
+    background-color: #6f5743;
     color: #e6dcd4;
     text-decoration:none;
 }
@@ -136,6 +144,8 @@ display: block;
     min-width: 50px;
     box-shadow: 0 2px 5px #00000097;
     z-index: 100;
+    padding: 0.5rem;
+    border-radius: 8px;
 }
 .submenu a{
     display:block;
@@ -276,6 +286,104 @@ footer{
     color:#56493d;
     
 }
+
+
+
+
+
+
+/* Adicionando responsividade para dispositivos móveis */
+@media (max-width: 460px) {
+
+  .topo {
+    flex-direction: column;
+    height: auto;
+    padding: 1vh;
+  }
+
+  .arealogo {
+    width: 100%;
+    height: 20vh;
+
+    margin-right: 0;
+    margin-bottom: 1vh;
+  }
+
+  .entrelivros {
+    font-size: 6vw;
+    margin-left: 0;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .busca input {
+    width: 80vw;
+    margin: 1vh 0;
+  }
+
+  .lupa, .sino, .menu {
+    margin: 1vh;
+  }
+
+  .menu-principal {
+    flex-direction: column;
+    height: auto;
+    padding: 1vh;
+    gap: 1rem;
+  }
+
+  .submenu2 {
+    position: static;
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .inicio {
+    flex-direction: column;
+    margin-top: 5vh;
+  }
+
+  .card1, .card2 {
+    width: 80vw;
+    height: auto;
+    margin: 2vh 0;
+  }
+
+  .card1 {
+    font-size: 3.5vw;
+    text-align: center;
+  }
+
+  footer.final {
+    height: auto;
+    padding: 5vh 0;
+  }
+
+  .texto {
+    font-size: 2.5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+  }
+
+  .minicards {
+    width: 80vw;
+    font-size: 4vw;
+    padding: 2vh;
+    text-align: center;
+  }
+
+  .submenu, .submenu2 {
+    box-shadow: none;
+    min-width: 100%;
+  }
+}
+
 
 
 
