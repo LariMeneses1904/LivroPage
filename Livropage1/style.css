@@ -302,12 +302,58 @@ section {
 }
 
 .scroll-container img {
-  max-height: 150px;
   border-radius: 8px;
   border: 3px solid #e0cfa9;
   background: #fff;
   
 }
+
+.scroll-container {
+  overflow-x: scroll;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;             
+}
+
+.scroll-container {
+  overflow-x: none;
+  padding: 10px;
+}
+.frase {
+  display: inline-block;
+}
+
+.frase {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.frase img {
+  width: 400px; /* ajuste conforme quiser */
+  height: auto;
+  display: block;
+}
+
+.frase .texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 22px;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+
+  width: 80%;   
+  max-width: 90%;  
+  word-wrap: break-word;
+  line-height: 1.4;   
+}
+
 
 .sobre-autora .autora-container {
   display: flex;
