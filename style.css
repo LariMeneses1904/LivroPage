@@ -116,7 +116,6 @@ display: block;
 }
 
 
-
 .menu{
     position:relative;
     display: inline-block;
@@ -200,6 +199,14 @@ color: #e6dcd4;
 
 }
 
+.inicio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
 .card1{
     display:flex;
     font-size: 8vh;
@@ -210,6 +217,7 @@ color: #e6dcd4;
     color:#56493d;
 }
 
+    
 
 .card2{
     display:flex;
@@ -222,13 +230,6 @@ color: #e6dcd4;
 }
 
 
-.inicio{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5%;
-}
-
 .texto{
     display: flex;
     margin-top: 8%;
@@ -239,12 +240,15 @@ color: #e6dcd4;
     padding-top: 5%;
     
 }
+
+
 .texto h1{
     display: flex;
     font-size:8vh;
     color:#56493d;
     
 }
+
 
 footer{
     display: flex;
@@ -277,7 +281,7 @@ footer{
 
 
 
-
+/*responsividade tela celular*/
 
 @media screen and (max-width: 768px) {
 .body{
@@ -292,8 +296,8 @@ footer{
     justify-content:end;
     align-items: center;
     color:#e6dcd4;
-
 }
+
 .linha-topo{
 width: 100%;
 height: 0.2vh;
@@ -311,23 +315,27 @@ background-color: #695446;
   justify-content: center;
   align-items: center;
   gap: 5%;
-
 }
+
+
 .menu-principal a{
     display: flex;
     text-decoration: none;
     color: #e6dcd4;
     font-size:10px;
 }
+
 .menu-principal a:hover{
     display: flex;
     text-decoration: none;
     color: #000000;
     font-size:10px;
 }
+
 .menu-principal li {
   position: relative;
 }
+
 .submenu2{
     display:none ;
     position:absolute;
@@ -342,17 +350,20 @@ background-color: #695446;
     border-radius: 8px;
     width: 28vw;
 }
+
 .submenu2 a{
     display:block;
     padding: 10px;
     color:#46270e;
     text-decoration:none;
 }
+
 .submenu2 a:hover{
     background-color: #6f5743;
     color: #e6dcd4;
     text-decoration:none;
 }
+
 .com-submenu:hover .submenu2{
 display: block;
 }
@@ -366,9 +377,9 @@ display: block;
     padding-left: 0.5vw;
     margin-top: 0.3vh;
 }
+
  input:focus{
     outline: none;
-
  }
 
 .arealogo{
@@ -377,19 +388,14 @@ display: block;
     height: 50%;
     background-image: url(./src/img/logoclara.png);
     background-size: cover;
-    margin-right:15vw;
-    
-     
+    margin-right:15vw;   
 }
 
 .entrelivros{
     display: flex;
     font-size: 20px;
-    align-items: center;
-    
+    align-items: center;  
 }
-
-
 
 .menu{
     position:relative;
@@ -397,6 +403,7 @@ display: block;
     cursor: pointer;
     margin-right: 2vw;
 }
+
 .menu-icon{
     font-size: 36px;
     cursor: pointer;
@@ -419,12 +426,14 @@ display: block;
     padding: 0.5rem;
     border-radius: 8px;
 }
+
 .submenu a{
     display:block;
     padding: 5px;
     color:#46270e;
     text-decoration:none;
 }
+
 .submenu a:hover{
 background-color:#56493d;
 color: #e6dcd4;
@@ -504,25 +513,32 @@ color: #e6dcd4;
 
 footer{
     display: flex;
-    height: 150vh;
+    height: 50vh;
     width: 100%;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+    flex-direction: row;
+    overflow-x: auto;
     background-color: #c1a67d;
     margin-bottom: 0%;
 
 }
+
 .texto{
     display: flex;
     margin-top: 10vh;
     margin-bottom: 0%;
     padding-left: 9vh;
+    padding-bottom: 2%;
 }
+
+
 .minicards{
     display: flex;
-    width: 60vw;
-    height: 50vh; 
+    flex-shrink: 0;
+    width: 45vw;
+    height: 25vh; 
     border-radius: 10px;
     font-size: 5vw;
     justify-content: center;
@@ -536,6 +552,7 @@ footer{
 
 }
 
+
 .texto h1{
     display: flex;
     font-size:4vh;
@@ -546,3 +563,4 @@ footer{
 
 
 }
+
