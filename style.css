@@ -6,7 +6,7 @@
 
 body{
     background-color: #e6dcd4;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Georgia', serif;
 }
 
 .topo{
@@ -384,7 +384,6 @@ display: block;
 
 .entrelivros{
     display: flex;
-    
     font-size: 20px;
     align-items: center;
     

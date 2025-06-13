@@ -5,10 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Livro - Nome do Livro</title>
   <link rel="stylesheet" href="../Livropage1/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 </head>
 <body>
+  <nav class="topo">
+      <div class="arealogo">  
+        <div class="entrelivros">EntreLivros</div>
+      </div>
+
+    <form action="./Pesquisarpage/index.html" method="get" class="busca">
+      <input type="text" placeholder="Qual livro você procura?" >
+    </form>
+
+    <div class="lupa"><span class="material-icons"style="font-size: 30px;"> search </span></div>
+    <div class="sino"><span class="material-icons" style="font-size: 30px;"> notifications </span></div>
+
+    <div class="menu">
+     <span class="material-icons" style="font-size: 35px;"> menu </span>
+
+      <div class="submenu">
+        <a href="#">Configurações</a>
+        <a href="#">Minha Conta</a>
+        <a href="#">Segurança</a>
+        <a href="#">Ajuda</a>
+        <a href="#">Saiba Mais</a>
+        <a href="#">Sair</a>
+      </div>
+      
+    </div>
+    </nav>
+
+    <div class="linha-topo"></div>
+
+    <nav class="menu-topo">
+      <ul class="menu-principal">
+        <li><a href="../index.html">Início</a></li>
+        <li class="com-submenu">
+        <a href="#">Categorias</a>
+        <ul class="submenu2">
+          <li><a href="#">Romance</a></li>
+          <li><a href="#">Fantasia</a></li>
+          <li><a href="#">Auto Ajuda</a></li>
+          <li><a href="#">Ficção Científica</a></li>
+          <li><a href="#">Contos</a></li>
+        </ul>
+          </li>
+          <li><a href="#">Sua estante</a></li>
+          <li><a href="#">Explorar</a></li>
+          <li><a href="#">Curiosidades</a></li>
+          <li><a href="#">Recomendados</a></li>
+      </ul>
+    </nav>
+
   <div class="container">
-    <a href="#" class="voltar">&#8592; Voltar</a>
+    <a href="../Pesquisarpage/index.html" class="voltar">&#8592; Voltar</a>
 
     <h1 class="titulo-livro">A gente mira no amor e acerta na solidão</h1>
     <img src="../src/img/capaagentemiranoamor.jpg" alt="Capa do Livro" class="capa-livro">
@@ -38,10 +89,22 @@
     <section class="destaques">
       <h2>Destaques</h2>
       <div class="scroll-container">
-        <img src="../src/img/frasespopulares1.jpg" alt="Frase 1">
+        <div class="frase1">
+        <img src="../src/img/frasespopulares1.jpg" alt="Frase 1" >
+        <h1>frase aqui</h1>
+        </div>
+        <div class="frase2">
         <img src="frase2.jpg" alt="Frase 2">
+        <h1>frase aqui</h1>
+        </div>
+        <div class="frase3">
         <img src="frase3.jpg" alt="Frase 3">
+        <h1>frase aqui</h1>
+        </div>
+        <div class="frase4">
         <img src="frase4.jpg" alt="Frase 4">
+        <h1>frase aqui</h1>
+        </div>
       </div>
     </section>
 
@@ -54,7 +117,7 @@
     </section>
 
     <section class="sobre-editora">
-      <h2>Sobre a Editora</h2>
+      <h2>Da Editora</h2>
     
       <div class="fotos-editora1">
         <img src="../src/img/editora1.jpg" alt="Editora 1" class="editora1">
