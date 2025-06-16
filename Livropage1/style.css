@@ -6,7 +6,9 @@
 
 body{
   background-color: #e6dcd4;
-  font-family: 'Georgia', serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
   margin: 0;
   padding: 0;
   color: #3e3e3e;
@@ -228,7 +230,6 @@ color: #e6dcd4;
   text-align: center;
   font-size: 3em;
   color: #4b2e1e;
-  font-family: 'Palatino Linotype', serif;
 }
 
 .capa-livro {
@@ -416,7 +417,6 @@ section {
 }
 
 .resenhas h2 {
-  font-family: 'Palatino Linotype', serif;
   color: #4b2e1e;
   font-size: 2em;
   margin-bottom: 20px;
@@ -449,7 +449,6 @@ section {
   margin-bottom: 10px;
   border: 1px solid #ccc1a8;
   border-radius: 5px;
-  font-family: 'Georgia', serif;
 }
 
 .formulario-resenha button {
@@ -460,6 +459,6 @@ section {
   font-size: 1em;
   border-radius: 5px;
   cursor: pointer;
-  font-family: 'Georgia', serif;
+
 }
 
