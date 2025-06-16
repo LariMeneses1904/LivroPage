@@ -6,7 +6,9 @@
 
 body{
     background-color: #e6dcd4;
-    font-family: 'Georgia', serif;
+     font-family: "Poppins", sans-serif;
+       font-weight: 100;
+  font-style: normal;
 }
 
 .topo{
@@ -112,6 +114,7 @@ display: block;
     margin-left: 7vw;
     font-size: 37px;
     align-items: center;
+    font-weight:550;
     
 }
 
