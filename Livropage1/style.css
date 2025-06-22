@@ -670,13 +670,15 @@ color: #e6dcd4;
     cursor: pointer;
 
 }
-
+  .titulo-livro{
+    font-size: 40px;
+  }
   .container {
     padding: 10px;
   }
 
   .capa-livro {
-    width: 100%;
+    width: 60%;
     height: auto;
   }
 
@@ -690,16 +692,67 @@ color: #e6dcd4;
     width: 100%;
   }
 
-  .scroll-container {
-    overflow-x: scroll;
-    display: flex;
-    flex-wrap: nowrap;
-  }
+  .destaques .scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+}
 
-  .frase {
-    min-width: 80%;
-    margin-right: 10px;
-  }
+.scroll-container img {
+  border-radius: 8px;
+  border: 3px solid #e0cfa9;
+  background: #fff;
+  
+}
+
+.scroll-container {
+  overflow-x: scroll;
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;             
+}
+
+.scroll-container {
+  overflow-x: none;
+  padding: 10px;
+}
+.frase {
+  display: inline-block;
+}
+
+.frase {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.frase img {
+  width: 350px; /* ajuste conforme quiser */
+  height: auto;
+  display: block;
+}
+
+.frase .texto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 22px;
+  text-shadow: 1px 1px 5px black;
+  text-align: center;
+
+  width: 80%;   
+  max-width: 90%;  
+  word-wrap: break-word;
+  line-height: 1.4;   
+}
+
+
 
 
   .fotos-editora1 img{
