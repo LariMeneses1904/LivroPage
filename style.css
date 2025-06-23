@@ -111,11 +111,11 @@ display: block;
 
 .arealogo{
     display:flex;
-    width: 5.9%;
-    height: 60%;
+    width: 7%;
+    height: 63%;
     background-image: url(./src/img/logoclara.png);
     background-size: cover;
-    margin-right:50vw;
+    margin-right:47vw;
      
 }
 
@@ -124,7 +124,7 @@ display: block;
     margin-left: 7vw;
     font-size: 37px;
     align-items: center;
-    font-weight:550;
+    
     
 }
 
@@ -554,18 +554,22 @@ color: #e6dcd4;
     justify-content: center;
     align-items: center;
     height:35vh;
+    gap:5%;
 }
 
 
 footer{
     display: flex;
-    height: 35vh;
+    height: auto;
     width: 100%;
     align-items: center;
     justify-content: start;
     padding: 10px;
     flex-direction: row;
     overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 10px;
+    gap: 3vw;
     background-color: #c1a67d;
     margin-bottom: 0%;
 
@@ -581,20 +585,22 @@ footer{
 
 
 .minicards{
+    flex:0 0 90vw;
+    scroll-snap-align: start;
     display: flex;
     flex-shrink: 0;
-    width: 45vw;
-    height: 25vh; 
+    width: 40vw;
+    height: 30vh; 
     border-radius: 10px;
-    font-size: 5vw;
+    font-size: 3.5vh;
     justify-content: center;
     align-items: center;
-    padding: 1%;
+    padding: 1rem;
     background-color: #6f5743;
     box-shadow:1px 1px 5px 1px #000000; 
     color:#e6dcd4;
     margin-top: 4vh;
-    margin-bottom: 8%;
+    margin-bottom: 10vh;
 
 }
 
