@@ -7,7 +7,7 @@
 body{
   background-color: #e6dcd4;
   font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
   margin: 0;
   padding: 0;
@@ -478,6 +478,7 @@ section {
 
   .body{
     background-color: #e6dcd4;
+    font-family: 500;
 }
 
 .topo{

@@ -7,7 +7,7 @@
 body{
     background-color: #e6dcd4;
    font-family: "Poppins", sans-serif;
-  font-weight: 100;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -323,6 +323,7 @@ color: #e6dcd4;
 
 .body{
     background-color: #e6dcd4;
+    font-weight: 500;
 }
 
 .topo{

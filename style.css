@@ -7,8 +7,8 @@
 body{
     background-color: #e6dcd4;
     font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+    font-weight: 500;
+    font-style:normal;
 }
 html, body {
   max-width: 100vw;
@@ -299,6 +299,7 @@ footer{
 @media screen and (max-width: 768px) {
 .body{
     background-color: #e6dcd4;
+    font-weight: 500;
 }
 
 .topo{
