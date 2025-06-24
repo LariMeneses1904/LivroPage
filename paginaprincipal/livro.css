@@ -195,7 +195,6 @@
 
 .destaques-scroll {
     overflow-x: auto;
-    white-space: nowrap;
     padding: 1rem 0;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none; /* IE/Edge */
@@ -234,36 +233,36 @@
 
 .destaque-item{
   display: inline-block;
+  
 }
 
 .destaque-item{
   position: relative;
   display: inline-block;
   margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  
+    
 }
 
 .destaque-item img {
   width: 350px; /* ajuste conforme quiser */
   height: auto;
   display: block;
+
 }
 
 .destaque-item .texto {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 25%;
+  left:5%;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
   text-shadow: 1px 1px 5px black;
   text-align: center;
-
-  width: 80%;   
   max-width: 90%;  
+  line-height: 1.4;
   word-wrap: break-word;
-  line-height: 1.4;   
+     
 }
 
 /* Sobre a Autora */
@@ -312,10 +311,12 @@
     justify-content: center;
     gap: 2rem;
     margin-bottom: 1.5rem;
+    flex-direction: column;
+    width: 100%;
 }
 
 .editora-top img {
-    max-height: 100px;
+   
     object-fit: contain;
 }
 
@@ -324,10 +325,11 @@
     justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
+    width:50%;
 }
 
 .editora-bottom img {
-    max-height: 150px;
+    
     border-radius: 4px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
 }
