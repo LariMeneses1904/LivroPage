@@ -165,12 +165,6 @@
     min-width: 200px;
 }
 
-.sumario-coluna h3 {
-    color: #886f5a;
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-}
-
 .sumario-coluna ul {
     list-style: none;
 }
@@ -324,14 +318,15 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
-    flex-wrap: wrap;
-    width:50%;
+    width: 100%;
+    
 }
 
 .editora-bottom img {
     
     border-radius: 4px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    width: 33%;
 }
 
 .editora-texto {
@@ -452,10 +447,28 @@
     .sumario-content {
         flex-direction: column;
     }
-    
+
+   .destaques-scroll .destaques-container{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px o;
+    }
+
+    .destaques-scroll{
+        overflow-x: scroll;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        
+    }
+    .destaques-scroll::-webkit-scrollbar{
+        display: none;
+    }
+
     .destaque-item {
-        width: 250px;
-        height: 150px;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
     }
     
     .resenhas-container {
