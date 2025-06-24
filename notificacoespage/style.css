@@ -1,0 +1,257 @@
+/* Estilos Gerais */
+:root {
+    --cor-primaria: #4a6fa5;
+    --cor-secundaria: #166088;
+    --cor-destaque: #4fc3f7;
+    --cor-texto: #333;
+    --cor-texto-claro: #666;
+    --cor-fundo: #f5f5f5;
+    --cor-branco: #fff;
+    --sombra: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    padding: 15px 0;
+    box-shadow: var(--sombra);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu a {
+    color: var(--cor-branco);
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: opacity 0.3s;
+}
+
+.menu a:hover {
+    opacity: 0.8;
+}
+
+.notificacao-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.notificacao-contador {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #e74c3c;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Seção de Notificações */
+.notificacoes-section {
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+    box-shadow: var(--sombra);
+    padding: 25px;
+    margin: 30px 0;
+}
+
+.notificacoes-section h2 {
+    color: var(--cor-primaria);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.notificacao-card {
+    display: flex;
+    padding: 15px;
+    border-left: 4px solid #ddd;
+    margin-bottom: 15px;
+    background-color: var(--cor-branco);
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.notificacao-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notificacao-card.nova {
+    border-left-color: var(--cor-destaque);
+    background-color: rgba(79, 195, 247, 0.05);
+}
+
+.notificacao-card.antiga {
+    opacity: 0.7;
+}
+
+.notificacao-icon {
+    font-size: 1.5rem;
+    color: var(--cor-primaria);
+    margin-right: 15px;
+    align-self: flex-start;
+}
+
+.notificacao-conteudo {
+    flex: 1;
+}
+
+.notificacao-conteudo h3 {
+    color: var(--cor-primaria);
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.notificacao-conteudo p {
+    color: var(--cor-texto-claro);
+    font-size: 0.95rem;
+    margin-bottom: 8px;
+}
+
+.notificacao-tempo {
+    font-size: 0.8rem;
+    color: #999;
+    font-style: italic;
+}
+
+.notificacao-fechar {
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    font-size: 1rem;
+    align-self: flex-start;
+    transition: color 0.3s;
+}
+
+.notificacao-fechar:hover {
+    color: #e74c3c;
+}
+
+.limpar-notificacoes {
+    display: block;
+    margin: 25px auto 0;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: var(--cor-texto-claro);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.limpar-notificacoes:hover {
+    background-color: #e9ecef;
+    color: var(--cor-texto);
+}
+
+/* Rodapé */
+.rodape {
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.rodape p {
+    font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .cabecalho .container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .menu {
+        width: 100%;
+        justify-content: space-between;
+    }
+    
+    .notificacao-card {
+        flex-direction: column;
+    }
+    
+    .notificacao-icon {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .notificacao-fechar {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .notificacoes-section {
+        padding: 15px;
+    }
+    
+    .notificacao-conteudo h3 {
+        font-size: 1rem;
+    }
+    
+    .notificacao-conteudo p {
+        font-size: 0.85rem;
+    }
+}
