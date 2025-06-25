@@ -1,3 +1,25 @@
+
+document.addEventListener('DOMContentLoaded', function() {
+    const menuBtn = document.querySelector('.menu-btn');
+    const submenu = document.querySelector('.submenu');
+    
+    menuBtn.addEventListener('click', function(e) {
+        e.stopPropagation();
+        submenu.classList.toggle('show');
+    });
+    
+    // Fechar o menu quando clicar fora
+    document.addEventListener('click', function() {
+        submenu.classList.remove('show');
+    });
+    
+    // Impedir que o clique no menu feche o submenu
+    submenu.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+});
+
+
 // Menu mobile (para telas pequenas)
 document.addEventListener('DOMContentLoaded', function() {
     const menuBtn = document.querySelector('.menu-btn');
