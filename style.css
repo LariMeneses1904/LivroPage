@@ -201,12 +201,13 @@ h2::after {
 
 .card1{
     display:flex;
-    font-size: 7vh;
+    font-size: 8vh;
     justify-content: center;
     align-items: center;
     height: 2vh;
     width: 30vw;
     color:#56493d;
+    font-weight: 500;
 }
 
     
