@@ -1,4 +1,9 @@
 /* Página do Livro */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 .livro-page {
     padding: 2rem;
     max-width: 1400px;
@@ -42,7 +47,20 @@
 }
 
 .estante-btn {
-    background-color: #2ecc71;
+    background-color: #c1c2c2;
+    color: black;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 41.5%;
+    margin-top: 3%;
+}
+
+.botao-comprar {
+    background-color: #886f5a;
     color: white;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -50,10 +68,14 @@
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-left: 46%;
 }
 
+.botao-comprar:hover{
+    background-color: #615043;
+}
 .estante-btn:hover {
-    background-color: #27ae60;
+    background-color: #9fa0a0;
 }
 
 /* Galeria de Imagens */

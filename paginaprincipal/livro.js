@@ -61,12 +61,12 @@ document.addEventListener('DOMContentLoaded', function() {
             icon.classList.remove('fa-plus');
             icon.classList.add('fa-check');
             estanteBtn.innerHTML = '<i class="fas fa-check"></i> Adicionado à Estante';
-            estanteBtn.style.backgroundColor = '#27ae60';
+            estanteBtn.style.backgroundColor = '#c1c2c2';
         } else {
             icon.classList.remove('fa-check');
             icon.classList.add('fa-plus');
             estanteBtn.innerHTML = '<i class="fas fa-plus"></i> Adicionar à Minha Estante';
-            estanteBtn.style.backgroundColor = '#2ecc71';
+            estanteBtn.style.backgroundColor = '#c1c2c2';
         }
     });
 
